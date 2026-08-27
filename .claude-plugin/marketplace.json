@@ -1,5 +1,6 @@
 {
-  "name": "claude-plugins",
+  "name": "hiroki-plugins",
+  "description": "hiroki(rinhanion)の自作Claude Codeプラグインをまとめた個人用マーケットプレイス",
   "owner": {
     "name": "hiroki"
   },

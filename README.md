@@ -1,25 +1,31 @@
 # claude-plugins
 
-自分用のClaudeプラグインをまとめておくマーケットプレイスリポジトリ。新しいプラグインを作るたびに `plugins/` 以下にフォルダを追加し、`.claude-plugin/marketplace.json` の `plugins` 配列にエントリを足していく。
+自分用のClaudeプラグインをまとめておくマーケットプレイスリポジトリ。マーケットプレイス名は `hiroki-plugins`(リポジトリ名は `claude-plugins`)。新しいプラグインを作るたびに `plugins/` 以下にフォルダを追加し、`.claude-plugin/marketplace.json` の `plugins` 配列にエントリを足していく。
 
 ## 使い方
 
 このリポジトリをClaude Codeにマーケットプレイスとして追加する(最初の1回だけ):
 
 ```
-/plugin marketplace add <あなたのGitHubアカウント>/claude-plugins
+/plugin marketplace add rinhanion/claude-plugins
+```
+
+対話UIが使えない環境ではCLIでも同じことができる:
+
+```
+claude plugin marketplace add rinhanion/claude-plugins
 ```
 
 プラグインをインストールする:
 
 ```
-/plugin install <プラグイン名>@claude-plugins
+/plugin install <プラグイン名>@hiroki-plugins
 ```
 
 このリポジトリを更新(git push)した後、インストール済みのプラグインを最新化する:
 
 ```
-/plugin update <プラグイン名>@claude-plugins
+/plugin update <プラグイン名>@hiroki-plugins
 ```
 
 marketplace.jsonの各プラグインエントリに `version` を書いていないので、pushしたコミットが自動で追跡される(バージョン番号を上げる必要はない)。

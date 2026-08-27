@@ -1,0 +1,13 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "hiroki"
+  },
+  "plugins": [
+    {
+      "name": "idea-coach",
+      "source": "./plugins/idea-coach",
+      "description": "アプリ・Webサービスのアイデアを壁打ちしながらストックし、必要なときはコーチエージェントが深掘りしてくれるプラグイン"
+    }
+  ]
+}

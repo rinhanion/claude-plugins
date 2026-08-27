@@ -1,0 +1,9 @@
+{
+  "name": "idea-coach",
+  "version": "0.1.0",
+  "description": "アプリ・Webサービスのアイデアを壁打ちしながら1つのMarkdownストックに蓄積し、本気で深掘りしたいときは専属のコーチエージェントが1点集中で詰めてくれるプラグイン",
+  "author": {
+    "name": "hiroki"
+  },
+  "keywords": ["idea", "brainstorm", "壁打ち", "アイデア", "coaching"]
+}

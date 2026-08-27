@@ -8,6 +8,11 @@
       "name": "idea-coach",
       "source": "./plugins/idea-coach",
       "description": "アプリ・Webサービスのアイデアを壁打ちしながらストックし、必要なときはコーチエージェントが深掘りしてくれるプラグイン"
+    },
+    {
+      "name": "marketplace-ping",
+      "source": "./plugins/marketplace-ping",
+      "description": "マーケットプレイスの配信・インストール・スキル発動が通っているかを確認するための最小プラグイン"
     }
   ]
 }

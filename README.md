@@ -29,3 +29,4 @@ marketplace.jsonの各プラグインエントリに `version` を書いてい�
 | プラグイン | 内容 |
 |---|---|
 | [idea-coach](plugins/idea-coach/README.md) | アプリ・Webサービスのアイデアをストックする壁打ち相手 + 本気で詰めるコーチエージェント |
+| [marketplace-ping](plugins/marketplace-ping/README.md) | マーケットプレイスの疎通確認用の最小プラグイン(`pong 🏓` を返すだけ) |

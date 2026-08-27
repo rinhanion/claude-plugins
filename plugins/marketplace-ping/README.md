@@ -15,7 +15,7 @@
 ## 使い方
 
 ```
-/plugin install marketplace-ping@claude-plugins
+/plugin install marketplace-ping@hiroki-plugins
 ```
 
 インストール後、会話で「疎通確認して」「ping」などと言うと `ping` スキルが発動する。確認が済んだらアンインストールしてよい。

@@ -14,6 +14,11 @@
       "name": "marketplace-ping",
       "source": "./plugins/marketplace-ping",
       "description": "マーケットプレイスの配信・インストール・スキル発動が通っているかを確認するための最小プラグイン"
+    },
+    {
+      "name": "note-draft",
+      "source": "./plugins/note-draft",
+      "description": "過去のnote記事から抽出した本人の文体で、トピックやNotionのネタ帳から「本人が書いたような」noteの下書きを生成し、確認のうえ下書き投稿するプラグイン"
     }
   ]
 }

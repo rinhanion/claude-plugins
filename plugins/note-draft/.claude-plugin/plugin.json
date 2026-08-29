@@ -1,0 +1,9 @@
+{
+  "name": "note-draft",
+  "version": "0.1.0",
+  "description": "過去のnote記事から抽出した本人の文体プロファイルを使って、トピックやメモ、Notionのネタ帳エントリから「本人が書いたような」noteの下書きを生成し、確認のうえnote-api経由で下書き投稿するプラグイン",
+  "author": {
+    "name": "hiroki"
+  },
+  "keywords": ["note", "blog", "下書き", "ghostwriter", "文体", "執筆"]
+}

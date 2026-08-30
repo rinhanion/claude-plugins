@@ -1,0 +1,16 @@
+{
+  "description": "セッション終了時に作業内容をブログのネタ帳として書き出す",
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/session-end.sh\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

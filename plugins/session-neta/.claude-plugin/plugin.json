@@ -1,0 +1,9 @@
+{
+  "name": "session-neta",
+  "version": "0.1.0",
+  "description": "Claude Codeのセッションが終わるたびに、その作業内容(何をやろうとして、何を触って、どこで詰まったか)をブログのネタ帳としてローカルに自動で書き出し、あとからnote-draftに渡して記事化するためのプラグイン",
+  "author": {
+    "name": "hiroki"
+  },
+  "keywords": ["blog", "note", "ネタ帳", "session", "hook", "ふりかえり"]
+}

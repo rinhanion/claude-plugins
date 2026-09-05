@@ -35,7 +35,6 @@ marketplace.jsonの各プラグインエントリに `version` を書いてい�
 | プラグイン | 内容 |
 |---|---|
 | [idea-coach](plugins/idea-coach/README.md) | アプリ・Webサービスのアイデアをストックする壁打ち相手 + 本気で詰めるコーチエージェント |
-| [marketplace-ping](plugins/marketplace-ping/README.md) | マーケットプレイスの疎通確認用の最小プラグイン(`pong 🏓` を返すだけ) |
 | [note-draft](plugins/note-draft/README.md) | 過去のnote記事から抽出した本人の文体で、noteの下書き記事を生成するプラグイン |
 | [session-neta](plugins/session-neta/README.md) | Claude Codeでの作業内容をセッション終了時にブログのネタ帳として自動で書き出し、note-draftに渡して記事化するプラグイン |
 | [rinteq-slides](plugins/rinteq-slides/README.md) | 学会・カンファレンス発表用の個人スライドテンプレートを適用してpptxスライドを生成するプラグイン |

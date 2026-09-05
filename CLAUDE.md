@@ -32,7 +32,6 @@ plugins/<name>/
 | プラグイン | 役割 |
 |---|---|
 | `idea-coach` | アイデアを壁打ちで 1 枚の Markdown ストックに蓄積 + 深掘り用コーチエージェント |
-| `marketplace-ping` | 配信・インストール・スキル発動の疎通確認だけの最小プラグイン(`pong 🏓`) |
 | `note-draft` | note アカウント(hiroking22)の文体プロファイルで下書きを生成し note-api で下書き投稿 |
 | `session-neta` | SessionEnd フックで作業内容をネタ帳 Markdown に自動書き出し、note-draft に橋渡し |
 
@@ -64,7 +63,7 @@ claude plugin install <名前>@hiroki-plugins
 claude plugin update <名前>@hiroki-plugins                # push 後に最新化
 ```
 
-`marketplace-ping` をインストールして `ping` スキルが `pong 🏓` を返せば配信は通っている。
+インストールしたプラグインのスキルが期待どおりに発動すれば配信は通っている。
 
 ## 開発フロー
 

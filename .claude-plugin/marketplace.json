@@ -24,6 +24,11 @@
       "name": "session-neta",
       "source": "./plugins/session-neta",
       "description": "Claude Codeのセッションが終わるたびに作業内容をブログのネタ帳として自動で書き出し、あとからnote-draftに渡して記事化するプラグイン"
+    },
+    {
+      "name": "rinteq-slides",
+      "source": "./plugins/rinteq-slides",
+      "description": "学会・カンファレンス発表用の個人スライドテンプレート(ネイビー×ターコイズ、モノグラムロゴ)を適用してpptxスライドを生成するプラグイン"
     }
   ]
 }

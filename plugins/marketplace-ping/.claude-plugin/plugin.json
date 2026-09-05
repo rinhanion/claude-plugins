@@ -1,9 +1,0 @@
-{
-  "name": "marketplace-ping",
-  "version": "0.1.0",
-  "description": "claude-pluginsマーケットプレイスの疎通確認用の最小プラグイン。インストールして呼び出せることを確認するためだけのスキルが1つ入っている",
-  "author": {
-    "name": "hiroki"
-  },
-  "keywords": ["ping", "test", "疎通確認", "sanity-check"]
-}

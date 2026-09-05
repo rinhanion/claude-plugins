@@ -1,0 +1,9 @@
+{
+  "name": "rinteq-slides",
+  "version": "0.1.0",
+  "description": "学会・カンファレンス発表用の個人スライドテンプレート「rinteq」(ネイビー×ターコイズ、面取りしたモノグラムロゴ、Noto Sans JP)を適用してpptxスライドを生成するプラグイン。生成した.pptxはそのままGoogle Slidesで開ける",
+  "author": {
+    "name": "hiroki"
+  },
+  "keywords": ["slides", "pptx", "スライド", "プレゼン", "テンプレート", "学会"]
+}

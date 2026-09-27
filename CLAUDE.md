@@ -34,6 +34,7 @@ plugins/<name>/
 | `idea-coach` | アイデアを壁打ちで 1 枚の Markdown ストックに蓄積 + 深掘り用コーチエージェント |
 | `note-draft` | note アカウント(hiroking22)の文体プロファイルで下書きを生成し note-api で下書き投稿 |
 | `session-neta` | SessionEnd フックで作業内容をネタ帳 Markdown に自動書き出し、note-draft に橋渡し |
+| `rinteq-slides` | 学会・カンファレンス発表用の個人スライドテンプレートを適用して pptx スライドを生成 |
 
 `note-draft` と `session-neta` は連携する: `session-neta` が `~/blog-neta/sessions/` の
 ネタ帳を選んで文脈を補い、本文執筆は文体プロファイル(`STYLE.md`)を持つ `note-draft` に渡す。
@@ -52,6 +53,8 @@ plugins/<name>/
   「どういうときに使う / 使わない」を発動トリガーの言い回しごと具体的に書く(既存スキル参照)。
   `model` / `allowed-tools` など、Claude Codeが公式にサポートするfrontmatterフィールドは、
   明確な理由がある場合は追加してよい
+  (例: `plugins/rinteq-slides/skills/rinteq-slides/SKILL.md` の `model: claude-opus-5` —
+  スライド生成はレイアウト判断の精度が要るため上位モデルを固定している)
 
 ## 動作確認
 
@@ -72,6 +75,19 @@ claude plugin update <名前>@hiroki-plugins                # push 後に最新�
 - コミット・PR タイトルは Conventional Commits(`feat:` `fix:` `chore:` `docs:`)
 - コード中のコメントは日本語(既存ファイルが英語で統一されていればそれに合わせる)
 - リモート: `github.com/rinhanion/claude-plugins`(private)
+
+### 自走範囲(Issueに着手したら止まらずマージまで進める)
+
+Issue に着手する指示が出たら、原則として確認を挟まずに
+**ブランチ → 実装 → 検証 → コミット → push → PR 作成 → マージ** まで一気に進める。
+これができるのは、Issue 自体の設計(「やること」「完了条件」)が着手前に固まっている場合に限る。
+
+- Issue に曖昧な点が残っている場合は、着手前に質問して詰める
+- マージ前に完了条件を実際に確認する(動作確認、差分の見直し)
+- 検証が通らない、または Issue のスコープ外の変更が必要になった場合は、
+  マージせずに報告してそこで止まる。スコープ外の発見は直さず、PR本文か別Issueに書く
+- この「マージまで Claude が行う」は **このリポジトリ限定** のルール。
+  他プロジェクトの `/loop` 運用では「PR作成まで、マージは人間」が既定のまま
 
 ## 禁止事項
 

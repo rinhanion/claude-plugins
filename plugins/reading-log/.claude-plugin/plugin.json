@@ -2,8 +2,5 @@
   "name": "reading-log",
   "version": "0.1.0",
   "description": "「読書を始めます」で読書開始を、読書中の気づきを話した後「メモしておいて」で読書メモを、Notionの読書リストデータベースに記録するプラグイン",
-  "author": {
-    "name": "hiroki"
-  },
   "keywords": ["notion", "読書", "reading", "book"]
 }

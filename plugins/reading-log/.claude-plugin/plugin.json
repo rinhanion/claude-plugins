@@ -1,0 +1,9 @@
+{
+  "name": "reading-log",
+  "version": "0.1.0",
+  "description": "「読書を始めます」と伝えると、Notionの読書リストデータベースに読書開始(ステータス・読み始め日)を記録するプラグイン",
+  "author": {
+    "name": "hiroki"
+  },
+  "keywords": ["notion", "読書", "reading", "book"]
+}

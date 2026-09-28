@@ -24,6 +24,11 @@
       "name": "rinteq-slides",
       "source": "./plugins/rinteq-slides",
       "description": "学会・カンファレンス発表用の個人スライドテンプレート(ネイビー×ターコイズ、モノグラムロゴ)を適用してpptxスライドを生成するプラグイン"
+    },
+    {
+      "name": "reading-log",
+      "source": "./plugins/reading-log",
+      "description": "「読書を始めます」と伝えると、Notionの読書リストデータベースに読書開始(ステータス・読み始め日)を記録するプラグイン"
     }
   ]
 }

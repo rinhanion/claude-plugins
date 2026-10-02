@@ -39,3 +39,4 @@ marketplace.jsonの各プラグインエントリに `version` を書いてい�
 | [session-neta](plugins/session-neta/README.md) | Claude Codeでの作業内容をセッション終了時にブログのネタ帳として自動で書き出し、note-draftに渡して記事化するプラグイン |
 | [rinteq-slides](plugins/rinteq-slides/README.md) | 学会・カンファレンス発表用の個人スライドテンプレートを適用してpptxスライドを生成するプラグイン |
 | [reading-log](plugins/reading-log/README.md) | 「読書を始めます」と伝えると、Notionの読書リストデータベースに読書開始を記録するプラグイン |
+| [kaigo-dx-knowledge](plugins/kaigo-dx-knowledge/README.md) | 介護DXのURLや会話内容を要約し、Notionの「介護DXナレッジ」データベースに1件登録するプラグイン |

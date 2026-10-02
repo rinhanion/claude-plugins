@@ -29,6 +29,11 @@
       "name": "reading-log",
       "source": "./plugins/reading-log",
       "description": "「読書を始めます」と伝えると、Notionの読書リストデータベースに読書開始(ステータス・読み始め日)を記録するプラグイン"
+    },
+    {
+      "name": "kaigo-dx-knowledge",
+      "source": "./plugins/kaigo-dx-knowledge",
+      "description": "介護DXに関するURLや会話内容を要約し、Notionの「介護DXナレッジ」データベースに1件登録するプラグイン"
     }
   ]
 }

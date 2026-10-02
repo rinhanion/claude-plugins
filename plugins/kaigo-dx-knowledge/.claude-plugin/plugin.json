@@ -1,0 +1,6 @@
+{
+  "name": "kaigo-dx-knowledge",
+  "version": "0.1.0",
+  "description": "介護DXに関するURLや会話内容を要約し、Notionの「介護DXナレッジ」データベースに1件登録するプラグイン",
+  "keywords": ["notion", "介護", "DX", "knowledge"]
+}

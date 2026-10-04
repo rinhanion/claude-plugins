@@ -34,6 +34,11 @@
       "name": "kaigo-dx-knowledge",
       "source": "./plugins/kaigo-dx-knowledge",
       "description": "介護DXに関するURLや会話内容を要約し、Notionの「介護DXナレッジ」データベースに1件登録するプラグイン"
+    },
+    {
+      "name": "webinar-apply",
+      "source": "./plugins/webinar-apply",
+      "description": "メールに届いたウェビナー案内から興味のありそうなものを選び、参加申し込みフォームを確認画面まで入力して確定前に確認を取るプラグイン"
     }
   ]
 }

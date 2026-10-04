@@ -1,0 +1,6 @@
+{
+  "name": "webinar-apply",
+  "version": "0.1.0",
+  "description": "メールに届いたウェビナー案内から興味のありそうなものを選び、参加申し込みフォームを確認画面まで入力して確定前に確認を取るプラグイン",
+  "keywords": ["webinar", "gmail", "browser", "registration"]
+}

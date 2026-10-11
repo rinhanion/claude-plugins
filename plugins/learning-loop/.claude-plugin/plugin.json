@@ -1,0 +1,6 @@
+{
+  "name": "learning-loop",
+  "version": "0.1.0",
+  "description": "セッションの作業をふりかえり、効いた型・失敗・業務知識などの学びをプロジェクトのLEARNINGS.mdに追記していくプラグイン",
+  "keywords": ["learnings", "retrospective", "knowledge", "session"]
+}

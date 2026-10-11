@@ -57,7 +57,8 @@ plugins/<name>/
 3. ルート `README.md` の「収録プラグイン」表に 1 行足す
 4. `plugin.json` と `marketplace.json` の `description` は日本語で、粒度をそろえる
 
-- push したコミットが自動で追跡される。`plugin.json` 側の `version` は目安で更新判定には使われない
+- `claude plugin update` は `plugin.json` の `version` で更新を判定する。version が同じままだと
+  push しても「already at the latest version」となり、インストール済みのキャッシュは更新されない
 - スキルの `SKILL.md` frontmatter は基本 `name` と `description` の 2 つ。`description` は
   「どういうときに使う / 使わない」を発動トリガーの言い回しごと具体的に書く(既存スキル参照)。
   `model` / `allowed-tools` など、Claude Codeが公式にサポートするfrontmatterフィールドは、
@@ -72,7 +73,8 @@ plugins/<name>/
 ```
 claude plugin marketplace add rinhanion/claude-plugins   # 最初の1回
 claude plugin install <名前>@hiroki-plugins
-claude plugin update <名前>@hiroki-plugins                # push 後に最新化
+claude plugin marketplace update hiroki-plugins          # push 後、まずカタログを最新化
+claude plugin update <名前>@hiroki-plugins                # 続けてプラグインを最新化
 ```
 
 インストールしたプラグインのスキルが期待どおりに発動すれば配信は通っている。
@@ -83,6 +85,8 @@ claude plugin update <名前>@hiroki-plugins                # push 後に最新�
 - ブランチ名: `feat/<短い説明>` / `fix/<...>` / `chore/<...>`
 - コミット・PR タイトルは Conventional Commits(`feat:` `fix:` `chore:` `docs:`)
 - コード中のコメントは日本語(既存ファイルが英語で統一されていればそれに合わせる)
+- プラグインの中身を変えたら、同じ PR でそのプラグインの `plugin.json` の `version` を上げる
+  (修正は patch、機能追加は minor)。上げないと `claude plugin update` で配信されない
 - リモート: `github.com/rinhanion/claude-plugins`(private)
 
 ### 自走範囲(Issueに着手したら止まらずマージまで進める)

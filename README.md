@@ -25,10 +25,11 @@ claude plugin marketplace add rinhanion/claude-plugins
 このリポジトリを更新(git push)した後、インストール済みのプラグインを最新化する:
 
 ```
-/plugin update <プラグイン名>@hiroki-plugins
+claude plugin marketplace update hiroki-plugins
+claude plugin update <プラグイン名>@hiroki-plugins
 ```
 
-marketplace.jsonの各プラグインエントリに `version` を書いていないので、pushしたコミットが自動で追跡される(バージョン番号を上げる必要はない)。
+更新の有無は各プラグインの `plugin.json` の `version` で判定される。プラグインを変更したら `version` を上げてからpushする(上げないと `update` しても取り込まれない)。
 
 ## 収録プラグイン
 

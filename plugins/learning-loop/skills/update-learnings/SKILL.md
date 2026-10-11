@@ -49,7 +49,7 @@ description: セッションの終わりに、そのセッションで得た学�
 追記後、`Consolidated Principles` 以外の4セクションにある項目(行頭が `- ` の行)を数える。
 
 ```bash
-awk '/^## /{sec=$0; next} sec!="" && sec!~/Consolidated Principles/ && /^- /{n++} END{print n+0}' LEARNINGS.md
+awk '/^## Consolidated Principles/{skip=1; next} /^## /{insec=1; skip=0; next} insec && !skip && /^- /{n++} END{print n+0}' LEARNINGS.md
 ```
 
 ### 5. 報告する

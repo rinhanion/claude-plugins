@@ -52,11 +52,21 @@ description: セッションの終わりに、そのセッションで得た学�
 awk '/^## Consolidated Principles/{skip=1; next} /^## /{insec=1; skip=0; next} insec && !skip && /^- /{n++} END{print n+0}' LEARNINGS.md
 ```
 
-### 5. 報告する
+### 5. 前回の統合日を確認する
+
+`Consolidated Principles` 直下の `最終統合: YYYY-MM-DD` の行を探す(`consolidate-learnings` が書く)。
+
+```bash
+grep -m1 '^最終統合: ' LEARNINGS.md
+```
+
+### 6. 報告する
 
 - 追加・補強した項目を、セクションごとに短く示す
 - 総項目数を伝える
-- **80 件以上なら**「項目が 80 件を超えました。統合を回す時期です(Consolidated Principles への集約)」と案内する
+- 次のどちらかに当てはまれば、`/consolidate-learnings` を回すよう案内する
+  - **総項目数が 80 件以上**:「項目が 80 件を超えました。`/consolidate-learnings` で統合を回す時期です」
+  - **前回の統合から 7 日以上たっている**(`最終統合:` の行が無いときは、総項目数が 10 件以上の場合だけ):「前回の統合から 1 週間たちました。`/consolidate-learnings` で統合を回しましょう」
 
 ## 雛形
 
@@ -86,11 +96,11 @@ awk '/^## Consolidated Principles/{skip=1; next} /^## /{insec=1; skip=0; next} i
 
 ## Consolidated Principles
 
-(まだなし。項目数が 80 件を超えたら、ここへ原則として集約する)
+(まだなし。週 1 回、または項目数が 80 件を超えたら `/consolidate-learnings` でここへ原則として集約する)
 ```
 
 ## やらないこと
 
-- 既存の項目を削除・統合しない(統合は別の作業)
+- 既存の項目を削除・統合しない(統合は `consolidate-learnings` の担当)
 - `CLAUDE.md` や自動メモリ(`~/.claude/memory/`)は書き換えない
 - コミットはしない。ユーザーに頼まれたときだけ行う

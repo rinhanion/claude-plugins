@@ -41,4 +41,4 @@
 
 ## Consolidated Principles
 
-(まだなし。`consolidate-learnings` スキルの導入後、週次または項目数80〜100件到達時にここへ集約する)
+(まだなし。週 1 回、または項目数が 80 件を超えたら `/consolidate-learnings` でここへ集約する)

@@ -10,6 +10,12 @@
 2〜3行で簡潔に要約して「処理済み」だとわかるようにすること。
 `LEARNINGS.md` と自動メモリ・このファイルとの書き分けは `LEARNINGS.md` 冒頭を参照。
 
+## スキルの観察
+
+作業を 3 件完了するたびに task-observer を呼び、観察した内容を
+[skill-observations/log.md](skill-observations/log.md) に追記すること
+(1 件 = ユーザーの依頼 1 回)。修正案は `skill-updates/` にステージされ、スキル本体は直接書き換えない。
+
 ## 技術スタック
 
 ビルドもパッケージマネージャも無い。中身は次の 4 種類だけ。
@@ -44,7 +50,7 @@ plugins/<name>/
 | `reading-log` | 読書開始・読書メモを Notion の「読書リスト」データベースに記録 |
 | `kaigo-dx-knowledge` | 介護DXの URL・会話内容を要約し Notion の「介護DXナレッジ」データベースに 1 件登録 |
 | `webinar-apply` | Gmail のウェビナー案内から選んだものを申込フォームの確認画面まで入力し、確定前に一括確認 |
-| `learning-loop` | `/update-learnings` でセッションの学びをプロジェクトの `LEARNINGS.md` に追記し、`/consolidate-learnings` で統合して原則にまとめる |
+| `learning-loop` | `/update-learnings` でセッションの学びをプロジェクトの `LEARNINGS.md` に追記し、`/consolidate-learnings` で統合して原則にまとめる。`task-observer` でスキルの修正案をステージ |
 
 `note-draft` と `session-neta` は連携する: `session-neta` が `~/blog-neta/sessions/` の
 ネタ帳を選んで文脈を補い、本文執筆は文体プロファイル(`STYLE.md`)を持つ `note-draft` に渡す。

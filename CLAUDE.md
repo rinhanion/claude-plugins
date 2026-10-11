@@ -44,6 +44,7 @@ plugins/<name>/
 | `reading-log` | 読書開始・読書メモを Notion の「読書リスト」データベースに記録 |
 | `kaigo-dx-knowledge` | 介護DXの URL・会話内容を要約し Notion の「介護DXナレッジ」データベースに 1 件登録 |
 | `webinar-apply` | Gmail のウェビナー案内から選んだものを申込フォームの確認画面まで入力し、確定前に一括確認 |
+| `learning-loop` | `/update-learnings` でセッションの学びをプロジェクトの `LEARNINGS.md` の該当セクションに追記 |
 
 `note-draft` と `session-neta` は連携する: `session-neta` が `~/blog-neta/sessions/` の
 ネタ帳を選んで文脈を補い、本文執筆は文体プロファイル(`STYLE.md`)を持つ `note-draft` に渡す。

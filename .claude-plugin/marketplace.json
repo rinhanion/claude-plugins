@@ -39,6 +39,11 @@
       "name": "webinar-apply",
       "source": "./plugins/webinar-apply",
       "description": "メールに届いたウェビナー案内から興味のありそうなものを選び、参加申し込みフォームを確認画面まで入力して確定前に確認を取るプラグイン"
+    },
+    {
+      "name": "learning-loop",
+      "source": "./plugins/learning-loop",
+      "description": "セッションの作業をふりかえり、効いた型・失敗・業務知識などの学びをプロジェクトのLEARNINGS.mdに追記していくプラグイン"
     }
   ]
 }

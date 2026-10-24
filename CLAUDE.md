@@ -51,6 +51,7 @@ plugins/<name>/
 | `kaigo-dx-knowledge` | 介護DXの URL・会話内容を要約し Notion の「介護DXナレッジ」データベースに 1 件登録 |
 | `webinar-apply` | Gmail のウェビナー案内から選んだものを申込フォームの確認画面まで入力し、確定前に一括確認 |
 | `learning-loop` | `/update-learnings` でセッションの学びをプロジェクトの `LEARNINGS.md` に追記し、`/consolidate-learnings` で統合して原則にまとめる。`task-observer` でスキルの修正案をステージ |
+| `life-coach` | 問いで気づきを引き出す人生コーチのスキル + 記録を読んで所見を返す分析エージェント `life-coach-analyst`。個人の材料はリポジトリ外の材料置き場(場所はユーザー設定)から読み、リポジトリには入れない |
 
 `note-draft` と `session-neta` は連携する: `session-neta` が `~/blog-neta/sessions/` の
 ネタ帳を選んで文脈を補い、本文執筆は文体プロファイル(`STYLE.md`)を持つ `note-draft` に渡す。

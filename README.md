@@ -44,3 +44,4 @@ claude plugin update <プラグイン名>@hiroki-plugins
 | [webinar-apply](plugins/webinar-apply/README.md) | メールに届いたウェビナー案内から興味のありそうなものを選び、参加申し込みフォームを確認画面まで入力して確定前に確認を取るプラグイン |
 | [learning-loop](plugins/learning-loop/README.md) | セッションの作業をふりかえり、効いた型・失敗・業務知識などの学びをプロジェクトのLEARNINGS.mdに追記し、定期的に統合して原則にまとめ、スキルの使われ方を観察して修正案をステージするプラグイン |
 | [life-coach](plugins/life-coach/README.md) | 仕事・副業・生活の相談やふりかえりに伴走し、問いで気づきを引き出す人生コーチ + 記録を横断して所見を返す分析エージェント。個人の材料はリポジトリ外の材料置き場から読む |
+| [daily-log](plugins/daily-log/README.md) | Claude Codeのセッション履歴から、やったこと・気づき・繰り返し出てきた作業を1日1ファイルの日次ログにまとめ、毎朝の自動実行で前日分と未作成の日を作るプラグイン |

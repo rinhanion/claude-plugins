@@ -49,6 +49,11 @@
       "name": "life-coach",
       "source": "./plugins/life-coach",
       "description": "仕事・副業・生活の相談やふりかえりに伴走し、問いで気づきを引き出す人生コーチのスキルと、記録を横断して所見を返す分析エージェントのプラグイン"
+    },
+    {
+      "name": "daily-log",
+      "source": "./plugins/daily-log",
+      "description": "Claude Codeのセッション履歴から、やったこと・気づき・繰り返し出てきた作業を1日1ファイルの日次ログにまとめ、毎朝の自動実行で前日分と未作成の日を作るプラグイン"
     }
   ]
 }

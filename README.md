@@ -43,3 +43,4 @@ claude plugin update <プラグイン名>@hiroki-plugins
 | [kaigo-dx-knowledge](plugins/kaigo-dx-knowledge/README.md) | 介護DXのURLや会話内容を要約し、Notionの「介護DXナレッジ」データベースに1件登録するプラグイン |
 | [webinar-apply](plugins/webinar-apply/README.md) | メールに届いたウェビナー案内から興味のありそうなものを選び、参加申し込みフォームを確認画面まで入力して確定前に確認を取るプラグイン |
 | [learning-loop](plugins/learning-loop/README.md) | セッションの作業をふりかえり、効いた型・失敗・業務知識などの学びをプロジェクトのLEARNINGS.mdに追記し、定期的に統合して原則にまとめ、スキルの使われ方を観察して修正案をステージするプラグイン |
+| [life-coach](plugins/life-coach/README.md) | 仕事・副業・生活の相談やふりかえりに伴走し、問いで気づきを引き出す人生コーチ + 記録を横断して所見を返す分析エージェント。個人の材料はリポジトリ外の材料置き場から読む |

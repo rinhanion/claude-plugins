@@ -1,0 +1,6 @@
+{
+  "name": "feed-digest",
+  "version": "0.1.0",
+  "description": "購読しているRSS/Atomフィードの新着を、要約・視点の一言・おすすめ度つきの日本語ダイジェストにまとめ、チェックした記事だけ本文をMarkdownで保存するプラグイン",
+  "keywords": ["RSS", "Atom", "フィード", "ダイジェスト", "feed-digest", "ブログ"]
+}

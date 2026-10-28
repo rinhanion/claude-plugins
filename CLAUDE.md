@@ -54,6 +54,7 @@ plugins/<name>/
 | `life-coach` | 問いで気づきを引き出す人生コーチのスキル + 記録を読んで所見を返す分析エージェント `life-coach-analyst`。個人の材料はリポジトリ外の材料置き場(場所はユーザー設定)から読み、リポジトリには入れない |
 | `daily-log` | Claude Code のセッション履歴から 1 日 1 ファイルの日次ログを作る。保存先はユーザー設定。毎朝 launchd → `claude -p` で未作成の日をまとめて作る |
 | `feed-digest` | 購読 RSS/Atom フィードの新着を日本語ダイジェストにし、チェックした記事だけ本文を Markdown で保存。保存先・購読先はユーザー設定 |
+| `self-clone` | 判断軸・判断ログ・好みをリポジトリ外の置き場(場所はユーザー設定)から読んで判断・提案の根拠にし、「好みに残して」「判断ログに残して」で置き場に書く。書き方の手順は置き場の CLAUDE.md に従う |
 
 `note-draft` と `session-neta` は連携する: `session-neta` が `~/blog-neta/sessions/` の
 ネタ帳を選んで文脈を補い、本文執筆は文体プロファイル(`STYLE.md`)を持つ `note-draft` に渡す。

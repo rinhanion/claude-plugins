@@ -59,6 +59,11 @@
       "name": "feed-digest",
       "source": "./plugins/feed-digest",
       "description": "購読しているRSS/Atomフィードの新着を、要約・視点の一言・おすすめ度つきの日本語ダイジェストにまとめ、チェックした記事だけ本文をMarkdownで保存するプラグイン"
+    },
+    {
+      "name": "self-clone",
+      "source": "./plugins/self-clone",
+      "description": "本人の判断軸・判断ログ・好みをリポジトリ外の置き場から読んで判断や提案の根拠にし、「好みに残して」「判断ログに残して」で置き場に書くプラグイン"
     }
   ]
 }

@@ -46,3 +46,4 @@ claude plugin update <プラグイン名>@hiroki-plugins
 | [life-coach](plugins/life-coach/README.md) | 仕事・副業・生活の相談やふりかえりに伴走し、問いで気づきを引き出す人生コーチ + 記録を横断して所見を返す分析エージェント。個人の材料はリポジトリ外の材料置き場から読む |
 | [daily-log](plugins/daily-log/README.md) | Claude Codeのセッション履歴から、やったこと・気づき・繰り返し出てきた作業を1日1ファイルの日次ログにまとめ、毎朝の自動実行で前日分と未作成の日を作るプラグイン |
 | [feed-digest](plugins/feed-digest/README.md) | 購読しているRSS/Atomフィードの新着を、要約・視点の一言・おすすめ度つきの日本語ダイジェストにまとめ、チェックした記事だけ本文をMarkdownで保存するプラグイン |
+| [self-clone](plugins/self-clone/README.md) | 本人の判断軸・判断ログ・好みをリポジトリ外の置き場から読んで判断や提案の根拠にし、「好みに残して」「判断ログに残して」で置き場に書くプラグイン |

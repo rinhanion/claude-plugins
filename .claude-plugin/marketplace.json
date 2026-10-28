@@ -54,6 +54,11 @@
       "name": "daily-log",
       "source": "./plugins/daily-log",
       "description": "Claude Codeのセッション履歴から、やったこと・気づき・繰り返し出てきた作業を1日1ファイルの日次ログにまとめ、毎朝の自動実行で前日分と未作成の日を作るプラグイン"
+    },
+    {
+      "name": "feed-digest",
+      "source": "./plugins/feed-digest",
+      "description": "購読しているRSS/Atomフィードの新着を、要約・視点の一言・おすすめ度つきの日本語ダイジェストにまとめ、チェックした記事だけ本文をMarkdownで保存するプラグイン"
     }
   ]
 }

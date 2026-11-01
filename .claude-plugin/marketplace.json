@@ -13,7 +13,7 @@
     {
       "name": "note-draft",
       "source": "./plugins/note-draft",
-      "description": "過去のnote記事から抽出した本人の文体で、トピックやNotionのネタ帳から「本人が書いたような」noteの下書きを生成し、確認のうえ下書き投稿するプラグイン"
+      "description": "過去のnote記事から抽出した本人の文体で、トピックやネタ帳(Markdown)から「本人が書いたような」noteの下書きを生成し、確認のうえ下書き投稿するプラグイン"
     },
     {
       "name": "session-neta",

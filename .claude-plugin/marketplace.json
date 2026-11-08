@@ -28,7 +28,7 @@
     {
       "name": "reading-log",
       "source": "./plugins/reading-log",
-      "description": "「読書を始めます」と伝えると、Notionの読書リストデータベースに読書開始(ステータス・読み始め日)を記録するプラグイン"
+      "description": "読書開始と読書メモを、1冊1ファイルのMarkdownの置き場(場所はユーザー設定)に記録するプラグイン"
     },
     {
       "name": "kaigo-dx-knowledge",

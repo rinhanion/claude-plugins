@@ -1,6 +1,12 @@
 {
   "name": "reading-log",
-  "version": "0.1.0",
-  "description": "「読書を始めます」で読書開始を、読書中の気づきを話した後「メモしておいて」で読書メモを、Notionの読書リストデータベースに記録するプラグイン",
-  "keywords": ["notion", "読書", "reading", "book"]
+  "version": "0.2.0",
+  "description": "「読書を始めます」で読書開始を、読書中の気づきを話した後「メモしておいて」で読書メモを、1冊1ファイルのMarkdownの置き場(場所はユーザー設定)に記録するプラグイン",
+  "keywords": [
+    "markdown",
+    "obsidian",
+    "読書",
+    "reading",
+    "book"
+  ]
 }

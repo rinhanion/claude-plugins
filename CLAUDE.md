@@ -47,7 +47,7 @@ plugins/<name>/
 | `note-draft` | note アカウント(hiroking22)の文体プロファイルで下書きを生成し note-api で下書き投稿 |
 | `session-neta` | SessionEnd フックで作業内容をネタ帳 Markdown に自動書き出し、note-draft に橋渡し |
 | `rinteq-slides` | 学会・カンファレンス発表用の個人スライドテンプレートを適用して pptx スライドを生成 |
-| `reading-log` | 読書開始・読書メモを Notion の「読書リスト」データベースに記録 |
+| `reading-log` | 読書開始・読書メモを 1 冊 1 ファイルの Markdown の置き場(場所はユーザー設定)に記録。書き方の決まりは置き場の CLAUDE.md に従う |
 | `kaigo-dx-knowledge` | 介護DXの URL・会話内容を要約し Notion の「介護DXナレッジ」データベースに 1 件登録 |
 | `webinar-apply` | Gmail のウェビナー案内から選んだものを申込フォームの確認画面まで入力し、確定前に一括確認 |
 | `learning-loop` | `/update-learnings` でセッションの学びをプロジェクトの `LEARNINGS.md` に追記し、`/consolidate-learnings` で統合して原則にまとめる。`task-observer` でスキルの修正案をステージ |

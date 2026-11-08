@@ -39,7 +39,7 @@ claude plugin update <プラグイン名>@hiroki-plugins
 | [note-draft](plugins/note-draft/README.md) | 過去のnote記事から抽出した本人の文体で、noteの下書き記事を生成するプラグイン |
 | [session-neta](plugins/session-neta/README.md) | Claude Codeでの作業内容をセッション終了時にブログのネタ帳として自動で書き出し、note-draftに渡して記事化するプラグイン |
 | [rinteq-slides](plugins/rinteq-slides/README.md) | 学会・カンファレンス発表用の個人スライドテンプレートを適用してpptxスライドを生成するプラグイン |
-| [reading-log](plugins/reading-log/README.md) | 「読書を始めます」と伝えると、Notionの読書リストデータベースに読書開始を記録するプラグイン |
+| [reading-log](plugins/reading-log/README.md) | 読書開始と読書メモを、1冊1ファイルのMarkdownの置き場(場所はユーザー設定)に記録するプラグイン |
 | [kaigo-dx-knowledge](plugins/kaigo-dx-knowledge/README.md) | 介護DXのURLや会話内容を要約し、Notionの「介護DXナレッジ」データベースに1件登録するプラグイン |
 | [webinar-apply](plugins/webinar-apply/README.md) | メールに届いたウェビナー案内から興味のありそうなものを選び、参加申し込みフォームを確認画面まで入力して確定前に確認を取るプラグイン |
 | [learning-loop](plugins/learning-loop/README.md) | セッションの作業をふりかえり、効いた型・失敗・業務知識などの学びをプロジェクトのLEARNINGS.mdに追記し、定期的に統合して原則にまとめ、スキルの使われ方を観察して修正案をステージするプラグイン |
